@@ -1,0 +1,27 @@
+{
+  "name": "software-engineer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoLuizNunes/unit-test.git"
+  },
+  "author": "Thiago Luiz Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThiagoLuizNunes/unit-test/issues"
+  },
+  "homepage": "https://github.com/ThiagoLuizNunes/unit-test#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
