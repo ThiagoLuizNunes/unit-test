@@ -9,18 +9,23 @@ export default {
     return 'vento forte';
   },
 
-  economizarEnergia: (inst) => {
-    return `economizar ${inst}`;
+  economizarEnergia: (type) => {
+    return `economizar ${type}`;
   },
 
-  controlarRemoto: (comandos) => {
+  controlarRemoto: (type, instruction, value) => {
+    return {
+      type: type,
+      instruction: instruction,
+      value: value
+    };
   },
 
-  reiniciar: (inst) => {
-    return `reiniciar ${inst}`;
+  reiniciar: (type) => {
+    return `reiniciar ${type}`;
   },
 
-  desligar: (inst) => {
-    return `desligar ${inst}`;
+  desligar: (type) => {
+    return `desligar ${type}`;
   } 
 };
